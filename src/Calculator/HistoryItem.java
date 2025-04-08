@@ -1,8 +1,5 @@
-//Lớp này đại diện cho một mục lịch sử và chứa thông tin về phép tính.
-//
-//java
-//Sao chép
-//Chỉnh sửa
+package Calculator;
+
 public class HistoryItem {
     private double a, b, result;
     private String operation;
@@ -14,21 +11,10 @@ public class HistoryItem {
         this.result = result;
     }
 
-    public double getA() {
-        return a;
-    }
-
-    public double getB() {
-        return b;
-    }
-
-    public String getOperation() {
-        return operation;
-    }
-
-    public double getResult() {
-        return result;
-    }
+    public double getA() { return a; }
+    public double getB() { return b; }
+    public String getOperation() { return operation; }
+    public double getResult() { return result; }
 
     @Override
     public String toString() {

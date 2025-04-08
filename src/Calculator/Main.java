@@ -1,9 +1,6 @@
-//Lớp này sẽ khởi tạo và hiển thị giao diện ứng dụng.
-//
-//java
-//Sao chép
-//Chỉnh sửa
-import javax.swing.*;
+package Calculator;
+
+import javax.swing.SwingUtilities;
 
 public class Main {
     public static void main(String[] args) {
