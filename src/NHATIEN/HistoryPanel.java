@@ -1,4 +1,4 @@
-package nhattien;
+package NHATIEN;
 //Lớp này quản lý lịch sử các phép tính và hiển thị chúng trong một JTextArea.
 
 //java
